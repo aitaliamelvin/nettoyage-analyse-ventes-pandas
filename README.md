@@ -34,5 +34,10 @@ Analyser un dataset de ventes pour extraire des informations clés :
 ```bash
 py -3.12 scripts/analyse_ventes_clean.py
 ```
+## 🔮 Améliorations possibles
+
+- Ajout du nettoyage des données
+- Ajout de visualisation avec Matplotlib
+- Structuration du projet
 
 Projet réalisé par Ait-Alia Melvin
