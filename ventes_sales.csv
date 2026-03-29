@@ -1,0 +1,10 @@
+Produit,Quantite,Prix,Categorie
+Chaussures,2,80,Sport
+T-shirt,,20,Textile
+Ballon,3,abc,Sport
+Casquette,4,15,
+Short,-2,25,Textile
+Chaussures,1,80,Sport
+Ballon,2,30,Sport
+T-shirt,3,20,Textile
+Casquette,1,,Accessoire
