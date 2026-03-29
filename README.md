@@ -1,54 +1,38 @@
-# 🧹📊 Nettoyage et analyse de ventes avec Pandas
+# 📊 Analyse des ventes avec Python
 
-## 📌 Description
-Projet complet de data analysis incluant le nettoyage de données et l’analyse de ventes.
+Projet réalisé dans le cadre de mon apprentissage en data analyse.
 
----
-
-## 🚀 Étapes du projet
-
-1. Inspection des données
-2. Nettoyage :
-- Conversion des types
-- Gestion des valeurs manquantes
-- Suppression des incohérences
-3. Analyse :
-- Chiffre d’affaires total
+## 🎯 Objectif
+Analyser un dataset de ventes pour extraire des informations clés :
+- Chiffre d'affaires total
 - Produit le plus vendu
-- Catégorie la plus rentable
+- Catégorie la plus performante
 
----
-
-## 🛠️ Technologies
-
+## 🛠️ Technologies utilisées
 - Python
 - Pandas
+- Matplotlib
 
----
+## 📁 Structure du projet
+- `data/` : fichiers CSV
+- `scripts/` : scripts Python
+- `graphs/` : graphiques générés
 
-## ▶️ Lancer
+## 📊 Résultats
+
+### Chiffre d'affaires par catégorie
+![CA](graphs/graph_ca_categories.png)
+
+### Répartition du CA
+![Pie](graphs/graph_pie.png)
+
+### Distribution des prix
+![Hist](graphs/graph_hist.png)
+
+## 🚀 Lancer le projet
 
 ```bash
-python nettoyage_ventes.py
-python analyse_ventes_clean.py
+py -3.12 scripts/analyse_ventes_clean.py
 ```
-
-## 💡 Résultats
-
-- CA total calculé sur données propres
-
-- Identification des produits performants
-
-- Analyse des catégories
-
-## 🔮 Améliorations
-
-- Automatiser le pipeline
-
-- Ajouter des graphiques
-
-- Utiliser un dataset réel
-
-## 👤 Auteur
 
 Projet réalisé par Ait-Alia Melvin
